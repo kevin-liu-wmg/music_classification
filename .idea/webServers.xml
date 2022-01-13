@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="79b0d3ce-448c-4fea-9226-fabb7d15931b" name="aws">
+        <fileTransfer rootFolder="/home/ubuntu" accessType="SFTP" host="3.233.22.246" port="22" sshConfigId="3592c711-4b2d-4d7f-acf2-f8da7d4cb966" sshConfig="ubuntu@3.233.22.246:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

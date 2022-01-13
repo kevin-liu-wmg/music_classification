@@ -1,0 +1,12 @@
+data/test_filtered.txt filter=lfs diff=lfs merge=lfs -text
+data/train_filtered.txt filter=lfs diff=lfs merge=lfs -text
+data/valid_filtered.txt filter=lfs diff=lfs merge=lfs -text
+data/genres filter=lfs diff=lfs merge=lfs -text
+data/genres.tar.gz filter=lfs diff=lfs merge=lfs -text
+app/video filter=lfs diff=lfs merge=lfs -text
+app/video/video.mp4 filter=lfs diff=lfs merge=lfs -text
+app/audios/temp.wav filter=lfs diff=lfs merge=lfs -text
+app/audios/audio.wav filter=lfs diff=lfs merge=lfs -text
+app/audios/mixup.wav filter=lfs diff=lfs merge=lfs -text
+panns_transfer_to_gtzan/checkpoints/BestAcc.pth filter=lfs diff=lfs merge=lfs -text
+panns_transfer_to_gtzan/pretrained_model/Cnn14_mAP=0.431.pth filter=lfs diff=lfs merge=lfs -text
